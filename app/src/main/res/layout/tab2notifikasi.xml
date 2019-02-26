@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="nwlnbl.laravel.MainActivity">
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:text="Notifikasi ada disini"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:background="@drawable/border_style"
+        android:layout_marginTop="23dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/textView8"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:text="Pesanan Anda sudah selesai"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:background="@drawable/border_style"
+        android:id="@+id/textView7"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/textView8"
+        android:layout_alignStart="@+id/textView8"
+        android:layout_alignRight="@+id/textView8"
+        android:layout_alignEnd="@+id/textView8" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:text="Pesanan Anda sudah selesai"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:background="@drawable/border_style"
+        android:id="@+id/textView9"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/textView7"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_alignRight="@+id/textView7"
+        android:layout_alignEnd="@+id/textView7" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:text="Pesanan Anda sudah selesai"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:background="@drawable/border_style"
+        android:id="@+id/textView10"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView9"
+        android:layout_alignRight="@+id/textView9"
+        android:layout_alignEnd="@+id/textView9"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9" />
+
+</RelativeLayout>

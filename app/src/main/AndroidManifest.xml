@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nwlnbl.laravel">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cupcake"
+        android:label="Cavel"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".GetStarted"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Cart"
+            android:label="Belanjaanku" />
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".KategoriActivity" />
+        <activity
+            android:name=".PesanActivity"
+            android:label="Order Kue" />
+        <activity
+            android:name=".FinishActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".BelanjaankuActivity" />
+        <activity android:name=".BantuanActivity"></activity>
+    </application>
+
+</manifest>
